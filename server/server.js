@@ -1,0 +1,11 @@
+var express = require('express');
+// var React = require('react');
+// var Router = require('react-router');
+var path = require('path');
+var bodyParser  = require('body-parser');
+var app = express();
+app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname,'/../client')));
+app.use(express.static(path.join(__dirname,'/..')));
+app.listen(3000);
+module.exports = app;
