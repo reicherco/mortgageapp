@@ -1,0 +1,23 @@
+{
+  "name": "typereact",
+  "version": "1.0.0",
+  "description": "typereact app",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "history": "^1.17.0",
+    "jquery": "^2.1.4",
+    "path": "^0.12.7",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.1",
+    "redux": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server/server.js"
+  }
+}
